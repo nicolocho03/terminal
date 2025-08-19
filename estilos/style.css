@@ -1,6 +1,7 @@
 body { margin: 0; padding: 0; }
 ul { list-style: none; }
 a { text-decoration: none; }
+
 .container {
     width: 100%;
     height: 100vh;
@@ -24,12 +25,19 @@ a { text-decoration: none; }
     margin: 20px 10px; 
 }
 
-    .box:hover { background-color: #17171D; transform-style: preserve-3d; transform: scale(1.02); transition: all ease .3s; }
-        .box:hover .marvel { color: #C0292B; transition: all ease .5s; }
+.box:hover { 
+    background-color: #17171D; 
+    transform-style: preserve-3d; 
+    transform: scale(1.02); 
+    transition: all ease .3s; 
+}
+.box:hover .marvel { color: #C0292B; transition: all ease .5s; }
+
 .model { height: 350px; max-height: 100%; max-width: 100%; }
 
 .details { display: flex; flex-direction: column; align-items: center; width: 300px; }
-    .details p { font-family: calibri; font-weight: bold; color: #6A6A74; text-align: center; margin-top: 20px; }
+.details p { font-family: calibri; font-weight: bold; color: #6A6A74; text-align: center; margin-top: 20px; }
+
 .marvel { color: #32323E; font-weight: bold; letter-spacing: 2px; font-family: Bebas Kai; font-size: 25px; }
 .logo { height: 60px; }
 
